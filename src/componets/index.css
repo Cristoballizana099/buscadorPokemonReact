@@ -1,0 +1,38 @@
+.contenedoruno{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 10px;
+    
+}
+
+.contenedordos{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenedorPokemon{
+margin-top: 50px;
+border: 1px solid;
+height: 300px;
+width: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.imgPokemon{
+
+    width: 50%;
+    height: 50%;
+    
+}
+
+.DatosPokemon{
+
+    margin-top: 10px;
+    margin-bottom: 0;
+}

@@ -7,32 +7,46 @@
 }
 
 .contenedordos{
-
+    margin-top: 70px;
     display: flex;
     justify-content: center;
 }
 
 
 .contenedorPokemon{
-margin-top: 50px;
-border: 1px solid;
-height: 300px;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+margin-top: 100px;
+height: auto ;
 width: 300px;
 display: flex;
 flex-direction: column;
 align-items: center;
 
+
 }
 
 .imgPokemon{
 
-    width: 50%;
-    height: 50%;
-    
+    width: 300px;
+    height:300px;
+    transform: translateY(-120px);
 }
 
 .DatosPokemon{
 
-    margin-top: 10px;
-    margin-bottom: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-110px);
+  margin: 0;
+    
 }
+
+.nombrePokemon{
+
+    margin: 0;
+      
+  }
